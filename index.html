@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+    
+    <title>Checklist Compras</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo1">ToDo</h1>
+    </header>
+    <section id="principal">
+        <div id="bloco">
+            <section>
+                <span id="mensagem-erro"></span>
+                <form id="form-item">
+                    <div class="grupo">
+                        <label for="item">Tarefa</label>
+                        <input type="text" id="tarefa" name="tarefa" class="campo" placeholder="Ex: Jogar o lixo">
+                    </div>
+                    <div class="grupo">
+                        <label for="descricao">Descrição</label>
+                        <input type="text" id="descricao" name="descricao" class="campo"
+                            placeholder="Ex: Lixeiro passa as !6:00 horas">
+                    </div>
+                    <div class="grupo">
+                        <label for="color">Cor</label>
+                        <input type="color" id="color" name="color" class="button">
+                    </div>
+                    <button id="cadastrar">+</button>
+                </form>
+            </section>
+        </div>
+        <div id="nova-tarefa">
+        </div>
+    </section>
+    <footer>&copy; Exercicíos</footer>
+</body>
+<script src="js/check.js"></script>
+<script src="js/delete.js"></script>
+<script src="js/pTotal.js"></script>
+<script src="js/index.js"></script>
+
+</html>
